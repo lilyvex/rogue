@@ -12,7 +12,7 @@
       in
       {
         packages.default = pkgs.buildGoModule {
-          pname = "go-flake";
+          pname = "rogue";
           version = "0.1.0";
 
           src = ./.;
